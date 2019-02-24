@@ -1,0 +1,53 @@
+{
+  name = "Applied Energistics",
+  version = "MC 1.8+",
+  recipes = {
+    [ "appliedenergistics2:quartz_glass:0" ] = {
+      displayName = "Quartz Glass",
+      ingredients = {
+        "appliedenergistics2:material:2",
+        "minecraft:glass:0",
+        "appliedenergistics2:material:2",
+        [ 9 ] = "appliedenergistics2:material:2",
+        [ 10 ] = "minecraft:glass:0",
+        [ 11 ] = "appliedenergistics2:material:2",
+        [ 5 ] = "minecraft:glass:0",
+        [ 6 ] = "appliedenergistics2:material:2",
+        [ 7 ] = "minecraft:glass:0",
+      },
+      count = 4,
+    },
+    [ "appliedenergistics2:material:43" ] = {
+      displayName = "Formation Core",
+      ingredients = {
+        "appliedenergistics2:material:0",
+        "appliedenergistics2:material:8",
+        "appliedenergistics2:material:22",
+      },
+      count = 2,
+    },
+    [ "appliedenergistics2:material:44" ] = {
+      displayName = "Annihilation Core",
+      ingredients = {
+        [ 5 ] = "minecraft:quartz:0",
+        [ 6 ] = "appliedenergistics2:material:8",
+        [ 7 ] = "appliedenergistics2:material:22",
+      },
+      count = 2,
+    },
+    [ "appliedenergistics2:interface:0" ] = {
+      displayName = "ME Interface",
+      ingredients = {
+        "minecraft:iron_ingot:0",
+        "minecraft:glass:0",
+        "minecraft:iron_ingot:0",
+        [ 9 ] = "minecraft:iron_ingot:0",
+        [ 10 ] = "minecraft:glass:0",
+        [ 11 ] = "minecraft:iron_ingot:0",
+        [ 5 ] = "appliedenergistics2:material:44",
+        [ 7 ] = "appliedenergistics2:material:43",
+      },
+      count = 1,
+    },
+  },
+}
