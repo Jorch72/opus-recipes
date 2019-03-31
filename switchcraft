@@ -262,13 +262,6 @@
       },
       count = 3,
     },
-    [ "minecraft:dye:2" ] = {
-      displayName = "Cactus Green",
-      count = 1,
-      ingredients = {
-        "minecraft:cactus:0",
-      },
-    },
     [ "minecraft:iron_chestplate:0" ] = {
       displayName = "Iron Chestplate",
       maxCount = 1,
@@ -1359,13 +1352,6 @@
         [ 6 ] = "minecraft:ender_pearl:0",
       },
       count = 1,
-    },
-    [ "minecraft:gold_ingot:0" ] = {
-      displayName = "Gold Ingot",
-      count = 1,
-      ingredients = {
-        "minecraft:gold_ore:0",
-      },
     },
     [ "computercraft:computer:16384" ] = {
       displayName = "Advanced Computer",
