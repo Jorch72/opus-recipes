@@ -838,7 +838,7 @@
         "minecraft:gold_ingot:0",
         "minecraft:gold_ingot:0",
         "minecraft:gold_ingot:0",
-        [ 6 ] = "computercraft:turtle:0",
+        [ 6 ] = "computercraft:turtle_expanded:0",
         [ 7 ] = "minecraft:gold_ingot:0",
         [ 5 ] = "minecraft:gold_ingot:0",
         [ 10 ] = "minecraft:gold_block:0",
@@ -966,7 +966,7 @@
       },
       count = 6,
     },
-    [ "computercraft:turtle:0" ] = {
+    [ "computercraft:turtle_expanded:0" ] = {
       displayName = "Turtle",
       ingredients = {
         "minecraft:iron_ingot:0",
